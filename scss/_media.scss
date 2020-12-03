@@ -1,0 +1,71 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	.offer__content {
+		max-width: 476px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.offer__title {
+		margin-top: 0;
+	}
+	.offer__btn {
+		margin: 38px auto 0;
+	}
+	.offer__close-vacancy {
+		margin: 20px auto 40px;
+	}
+	.offer__img {
+		display: block;
+		margin: 0 auto;
+	}
+	.offer {
+		border-bottom: none;
+	}
+
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+	.offer__btn {
+		width: unset;
+		padding: 13px 20px 11px;
+	}
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+	
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}

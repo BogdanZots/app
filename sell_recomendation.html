@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>People Market</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="">
+	<link rel="icon" href="#">
+	<link rel="apple-touch-icon" sizes="180x180" href="#">
+	<!-- Template Basic Images End -->	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<a class="logo" href="/">
+						<img src="img/dest/logo.svg" alt="" class="logo__img">
+					</a>
+				</div>
+				<div class="col-lg-4">
+					<p class="header__text">
+						Ваш процент с продажи рекоммендаций: <span class="low">15%</span>
+					</p>
+					<p class="header__text">
+						Уровень доверия к вам - <span>Низкий</span>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<div class="header__agent">
+						<div class="header__agent">
+							Агент: <span>Юрий Неприклонный</span><img src="img/dest/arrow-down.svg" alt="">
+						</div>
+						<div class="header__balance">
+							Баланс -  <span class="good">0 руб</span> 
+							<a href="/" class="header__money">
+								Вывести деньги
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="sell_recomendation" id="sell_recomendation">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="breadcrumbs">
+						Мои рекомендации  <span>/ Продать рекомендацию</span>
+					</div>
+				</div>
+				<div class="col-12">
+					<h3 class="sell_recomendation__title">
+						Продать рекомендацию
+					</h3>
+					<p class="sell_recomendation__describe">
+						Заполните карточку кандидата
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<div class="sell_recomendation__common">
+						<h4 class="sell_recomendation__name">
+							1. Общая информация о кандидате
+						</h4>
+						<p class="sell_recomendation__undername">
+							(не содержит персональных данных) 
+						</p>
+						<div class="custom-select" >
+							<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+							<select name="type" id="" class="sell_recomendation__selecter" >
+								<option value="spec" class="sell_recomendation__select">
+									Тип рекомендации
+								</option>
+								<option value="spec" class="sell_recomendation__select">
+									Специалист
+								</option>
+								<option value="freelancer" class="sell_recomendation__select">
+									Самозанятый
+								</option>
+								<option value="gov" class="sell_recomendation__select">
+									Госслужащий
+								</option>
+								<option value="manager" class="sell_recomendation__select">
+									Менеджер
+								</option>
+								<option value="top-manager" class="sell_recomendation__select">
+									Топ-менеджер
+								</option>
+								<option value="student" class="sell_recomendation__select">
+									Студент
+								</option>
+							</select>
+						</div>
+						<div class="custom-select" >
+							<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+							<select name="city" id="" class="sell_recomendation__selecter" >
+								<option value="city" class="sell_recomendation__select">
+									Город
+								</option>
+								<option value="moscow" class="sell_recomendation__select">
+									Москва
+								</option>
+								<option value="petrs" class="sell_recomendation__select">
+									Санкт-Петербург
+								</option>
+								<option value="voronej" class="sell_recomendation__select">
+									Воронеж
+								</option>
+								<option value="kursk" class="sell_recomendation__select">
+									Курск
+								</option>
+								<option value="lipeck" class="sell_recomendation__select">
+									Липецк
+								</option>
+							</select>
+						</div>
+						<div class="custom-select" >
+							<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+							<select name="profession" id="" class="sell_recomendation__selecter" >
+								<option value="profession" class="sell_recomendation__select">
+										Профессия
+								</option>
+								<option value="auto" class="sell_recomendation__select">
+									Автомеханик
+								</option>
+								<option value="setter" class="sell_recomendation__select">
+									Монтажник
+								</option>
+								<option value="programmer" class="sell_recomendation__select">
+									Программист
+								</option>
+								<option value="electr" class="sell_recomendation__select">
+									Электрик
+								</option>
+								<option value="disigner" class="sell_recomendation__select">
+									Дизайнер
+								</option>
+							</select>
+						</div>
+						<div class="sell_recomendation__input-space">
+							<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+							<input type="text" class="sell_recomendation__input" placeholder="Текущая должность">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="sell_recomendation__skills">
+						<div class="sell_recomendation__skills-top">
+							<div class="sell_recomendation__skills-left">
+								<h4 class="sell_recomendation__name">
+									2. Навыки кандидата 
+									<span>(распишите все умения кандидата)</span>
+								</h4>
+								<input type="text" class="sell_recomendation__input-skills" placeholder="Напишите навыки кандидата и нажмите «Enter»">
+							</div>
+							<div class="sell_recomendation__skills-right">
+								<p class="sell_recomendation__right-text">
+									Оцените уровень навыка 
+								</p>
+							</div>
+						</div>
+						<div class="sell_recomendation__skills-bottom">
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__skill">
+								<div class="sell_recomendation__skill-name">
+									Веб-аналитика <img src="img/dest/delete.svg" alt="">
+								</div>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Оценка
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="sell_recomendation__all">
+						<h4 class="sell_recomendation__name">
+							3. Подробная информация о кандидате 
+						</h4>
+						<div class="sell_recomendation__information">
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Пол объекта
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Женский
+										  <input type="radio"  name="sex">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Мужской
+										  <input type="radio" name="sex">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Дети
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio" name="children">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Есть
+										  <input type="radio" name="children">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Не знаю
+										  <input type="radio" name="children">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Личная дисциплина
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="person">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Низкая
+										  <input type="radio" name="person">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Средняя
+										  <input type="radio" name="person">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Высокая
+										  <input type="radio" name="person">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Кто в иерархии?
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Специалист
+										  <input type="radio"  name="who">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Руководитель
+										  <input type="radio" name="who">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Самозанятый
+										  <input type="radio" name="who">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Топ-менеджмент
+										  <input type="radio" name="who">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Вероятность смены места жительства
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="changeLiving">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Мало вероятно 
+										  <input type="radio" name="changeLiving">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Скорее да
+										  <input type="radio" name="changeLiving">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Готов к переезду
+										  <input type="radio" name="changeLiving">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Вероятное семейное положение
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Холост (а)
+										  <input type="radio"  name="family">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">В браке
+										  <input type="radio" name="family">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">В разводе
+										  <input type="radio" name="family">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Есть ли признаки ожирения
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="fat">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Да, заметные
+										  <input type="radio" name="fat">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Да, значительные
+										  <input type="radio" name="fat">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Вероятность принятия предложения трудоустройства 
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="work">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Низкая
+										  <input type="radio" name="work">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Средняя
+										  <input type="radio" name="work">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Высокая
+										  <input type="radio" name="work">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Собственный автомобиль
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="car">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Есть
+										  <input type="radio" name="car">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Не знаю
+										  <input type="radio" name="car">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Есть ограничения по состоянию здоровья?
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="health">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Есть
+										  <input type="radio" name="health">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Не знаю
+										  <input type="radio" name="health">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Вероятное количество подчиненных
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="rule">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">1-3
+										  <input type="radio" name="rule">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">3-10
+										  <input type="radio" name="rule">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">10-20
+										  <input type="radio" name="rule">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">больше 20
+										  <input type="radio" name="rule">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Наличие вредных привычек
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="habbits">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Курение
+										  <input type="radio" name="habbits">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Алкоголь
+										  <input type="radio" name="habbits">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Игры
+										  <input type="radio" name="habbits">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Другое
+										  <input type="radio" name="habbits">
+										  <span class="checkmark"></span>
+										  <input type="text" class="radio-text-input" placeholder="Впишите">
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Собственное жилье
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="home">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Есть
+										  <input type="radio" name="home">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Не знаю 
+										  <input type="radio" name="home">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Тип кредита
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Ипотечный
+										  <input type="radio"  name="credit">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Автомобиль
+										  <input type="radio" name="credit">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Потребительский
+										  <input type="radio" name="credit">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Наличие кредита
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio">Нет
+										  <input type="radio"  name="typeCredit">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Есть
+										  <input type="radio" name="typeCredit">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Не знаю 
+										  <input type="radio" name="typeCredit">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item">
+								<h5 class="sell_recomendation__item-name">
+									Спорт
+								</h5>
+								<div class="sell_recomendation__radio-space">
+									<div class="sell_recomendation__radio">
+										<label class="container-radio"> Регулярно (профессионал)
+										  <input type="radio"  name="sport">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Регулярно (любитель)
+										  <input type="radio" name="sport">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Вероятно периодически
+										  <input type="radio" name="sport">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Скорее очень редко
+										  <input type="radio" name="sport">
+										  <span class="checkmark"></span>
+										</label>
+										<label class="container-radio">Нет
+										  <input type="radio" name="sport">
+										  <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="sell_recomendation__item sell_recomendation__item-mt">
+								<h5 class="sell_recomendation__item-name">
+									Вероятный стаж
+								</h5>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Лет
+										</option>
+										<option name="grade" id="" >
+											1
+										</option>
+										<option name="grade" id="" >
+											2
+										</option>
+										<option name="grade" id="" >
+											3
+										</option>
+										<option name="grade" id="" >
+											4
+										</option>
+										<option name="grade" id="" >
+											5
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__item sell_recomendation__item-mt">
+								<h5 class="sell_recomendation__item-name">
+									Вероятный желаемый доход
+								</h5>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Тысяч рублей
+										</option>
+										<option name="grade" id="" >
+											30 000
+										</option>
+										<option name="grade" id="" >
+											40 000
+										</option>
+										<option name="grade" id="" >
+											50 000
+										</option>
+										<option name="grade" id="" >
+											60 000
+										</option>
+										<option name="grade" id="" >
+											70 000
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__item sell_recomendation__item-mt">
+								<h5 class="sell_recomendation__item-name">
+									Вероятный основной доход
+								</h5>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Тысяч рублей
+										</option>
+										<option name="grade" id="" >
+											30 000
+										</option>
+										<option name="grade" id="" >
+											40 000
+										</option>
+										<option name="grade" id="" >
+											50 000
+										</option>
+										<option name="grade" id="" >
+											60 000
+										</option>
+										<option name="grade" id="" >
+											70 000
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__item sell_recomendation__item-mt">
+								<h5 class="sell_recomendation__item-name">
+									Вероятный пассивный доход
+								</h5>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Тысяч рублей
+										</option>
+										<option name="grade" id="" >
+											30 000
+										</option>
+										<option name="grade" id="" >
+											40 000
+										</option>
+										<option name="grade" id="" >
+											50 000
+										</option>
+										<option name="grade" id="" >
+											60 000
+										</option>
+										<option name="grade" id="" >
+											70 000
+										</option>
+									</select>
+								</div>	
+							</div>
+							<div class="sell_recomendation__item ">
+								<h5 class="sell_recomendation__item-name">
+									Вероятный возраст
+								</h5>
+								<div class="custom-select">
+									<img src="img/dest/complete.svg" alt="" class="d-none custom-select__complete">
+									<select name="grade" id="" class="sell_recomendation__skill-grade">
+										<option name="grade" id="" >
+											Лет
+										</option>
+										<option name="grade" id="" >
+											18-25
+										</option>
+										<option name="grade" id="" >
+											25-30
+										</option>
+										<option name="grade" id="" >
+											30-40
+										</option>
+										<option name="grade" id="" >
+											40-50
+										</option>
+										<option name="grade" id="" >
+											50+
+										</option>
+									</select>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="sell_recomendation__personal">
+						<div class="sell_recomendation__personal-left">
+							<h4 class="sell_recomendation__name">
+								4. Персональная информация и контакты кандидата
+							</h4>
+							<div class="sell_recomendation__personal-inputs">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Имя">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Skype">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Фамилия">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Instagram">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Мобильный">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Вконтакте">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="E-mail">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Facebook">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="Тип рекомендации">
+								<input type="text" class="sell_recomendation__personal-input" placeholder="WhatsApp">
+							</div>
+						</div>
+						<div class="sell_recomendation__personal-right">
+							<input type="text" class="sell_recomendation__personal-input" placeholder="Текущий работодатель">
+							<p class="sell_recomendation__personal-describe">
+								Расскажите, что поможет кандидату принять предложение от нового работодателя: инсайты, перспективы карьерного роста, расширенный социальный пакет, близость к дому?
+							</p>
+							<div class="editer">
+								<div class="editer__top">
+									<img src="img/edit-bold.svg" alt="" class="editer__img">
+									<img src="img/edit-italic.svg" alt="" class="editer__img">
+									<img src="img/edit-underline.svg" alt="" class="editer__img editer__img_margin">
+									<img src="img/edit-left.svg" alt="" class="editer__img">
+									<img src="img/edit-center.svg" alt="" class="editer__img">
+									<img src="img/edit-right.svg" alt="" class="editer__img editer__img_margin">
+									<img src="img/edit-h.svg" alt="" class="editer__img">
+									<img src="img/edit-link.svg" alt="" class="editer__img">
+									<img src="img/edit-code.svg" alt="" class="editer__img">
+									<img src="img/edit-ol.svg" alt="" class="editer__img">
+									<img src="img/edit-ul.svg" alt="" class="editer__img editer__img_margin">
+									<img src="img/edit-image.svg" alt="" class="editer__img">
+									<img src="img/edit-table.svg" alt="" class="editer__img editer__img_margin">
+									<img src="img/edit-delete.svg" alt="" class="editer__img">
+								</div>
+								<div class="editer__bottom">
+									<textarea name="text" id="" placeholder="Описание кандидата">
+										
+									</textarea>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="sell_recomendation__price">
+						<h4 class="sell_recomendation__name">
+							5. Установите цену за рекомендацию
+						</h4>
+						<div class="sell_recomendation__price-texts">
+							<input type="text" class="sell_recomendation__price-input" placeholder="Цена">
+							<p class="sell_recomendation__price-rub">
+								руб
+							</p>
+							<p class="sell_recomendation__price-text">
+								С продажи данной рекоммендации вы получите (50%) - <span class="sell_recomendation__price-semibold"><span>1 300</span> руб</span>
+							</p>
+						</div>
+						<div class="slidecontainer">
+	 						
+						  <input type="range"  min="1" max="10000" value="5000" class="rangesliderInput" id="html-input-range">
+						  <div class="slidecontainer__rub">
+						  	руб
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="sell_recomendation__image">
+						<div class="sell_recomendation__image-top">
+							<img src="img/dest/addPhoto.svg" alt="" class="sell_recomendation__image-icon">
+							<p class="sell_recomendation__image-text">
+								Добавить фото кандидата
+							</p>
+							<a href="/" class="sell_recomendation__image-link btn-link">
+								К моим рекомендациям
+							</a>
+						</div>
+						<div class="sell_recomendation__image-bottom">
+							<a href="/" class="btn-empty sell_recomendation__image-save">
+								Сохранить изменения
+							</a>
+							<a href="/" class="btn sell_recomendation__image-btn">
+								Отправить на модерацию
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <footer class="footer" id="footer">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-lg-4">
+	 				<a href="/" class="logo footer__logo">
+	 					<img src="img/dest/logo.svg" alt="" class="logo__img">
+	 				</a>
+	 				<a href="mailto:info@people.market" class="footer__email">
+	 					<img src="img/dest/mail.svg" alt="" class="footer__icon"> info@people.market
+	 				</a>
+	 			</div>
+	 			<div class="offset-lg-1"></div>
+	 			<div class="col-lg-3">
+	 				<ul class="footer__menu">
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Сравнить стратегии
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Selfsale
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кадровый резерв
+	 						</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+	 			<div class="col-lg-4">
+	 				<ul class="footer__menu">
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кто такие агенты
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кто такие Асессоры
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Какую проблему мы решаем
+	 						</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+	 			<div class="col-12">
+	 				<p class="footer__credits">
+	 					© 2019 People Market
+	 				</p>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </footer>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

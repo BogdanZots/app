@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>People Market</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="">
+	<link rel="icon" href="#">
+	<link rel="apple-touch-icon" sizes="180x180" href="#">
+	<!-- Template Basic Images End -->	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<a class="logo" href="/">
+						<img src="img/dest/logo.svg" alt="" class="logo__img">
+					</a>
+				</div>
+				<div class="col-lg-4">
+					<p class="header__text">
+						Ваш процент с продажи рекоммендаций: <span class="good">50%</span>
+					</p>
+					<p class="header__text">
+						Уровень доверия к вам - <span class="good">Высокий</span>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<div class="header__agent">
+						<div class="header__agent">
+							Агент: <span>Юрий Неприклонный</span><img src="img/dest/arrow-down.svg" alt="">
+						</div>
+						<div class="header__balance">
+							Баланс -  <span class="good">0 руб</span> 
+							<a href="/" class="header__money">
+								Вывести деньги
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="recommendations" id="recommendations">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="breadcrumbs">
+						Мои рекомендации /
+					</div>
+				</div>
+				<div class="col-12">
+					<h3 class="recommendations__title">
+						Мои рекомендации
+					</h3>
+					<p class="recommendations__describe">
+						Всего рекомендаций - <span>6</span> шт
+					</p>
+				</div>
+				<div class="col-12">
+					<div class="search">
+						<input type="text" class="search__input" placeholder="Поиск">
+						<button class="search__btn btn-empty">
+							Очистить
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="recommendations__buttons">
+						<button class="recommendations__btn recommendations__btn_all recommendations__btn_active">
+							Показать все
+						</button>
+						<button class="recommendations__btn recommendations__btn_draft">
+							Черновик
+						</button>
+						<button class="recommendations__btn recommendations__btn_moderate">
+							Модерация
+						</button>
+						<button class="recommendations__btn recommendations__btn_decline">
+							Отклонен
+						</button>
+						<button class="recommendations__btn recommendations__btn_selling">
+							Продается
+						</button>
+						<button class="recommendations__btn recommendations__btn_stopped">
+							Остановлен
+						</button>
+						<button class="recommendations__btn recommendations__btn_sold">
+							Продано
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<button class="recommendations__sell btn">
+						Продать рекомендацию
+					</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="recommendations__content">
+						<div class="recommendations__row recommendations__row_first">
+							<div class="recommendations__item">
+								Дата
+							</div>
+							<div class="recommendations__item">
+								Имя
+							</div>
+							<div class="recommendations__item">
+								Город
+							</div>
+							<div class="recommendations__item">
+								Профессия
+							</div>
+							<div class="recommendations__item">
+								Должность
+							</div>
+							<div class="recommendations__item ">
+								Цена
+							</div>
+							<div class="recommendations__item">
+								Тип
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								Статус
+							</div>
+						</div>
+						<div class="recommendations__row selling">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Продается
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									<span class="good">Добавлено в избранное</span> <span>- 5 раз</span>
+								</p>
+								<p class="recommendations__looking">
+									Сейчас <span class="good">5 человек просматривают</span>
+								</p>
+							</div>
+						</div>
+						<div class="recommendations__row draft">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Черновик
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									
+								</p>
+								<p class="recommendations__looking">
+									
+								</p>
+							</div>
+						</div>
+						<div class="recommendations__row decline">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Отклонен
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									
+								</p>
+								<p class="recommendations__looking">
+									
+								</p>
+							</div>
+						</div>
+						<div class="recommendations__row sold">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Продано
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									
+								</p>
+								<p class="recommendations__looking">
+									
+								</p>
+							</div>
+						</div>
+						<div class="recommendations__row stopped">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Остановлен
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									
+								</p>
+								<p class="recommendations__looking">
+									
+								</p>
+							</div>
+						</div>
+						<div class="recommendations__row moderate">
+							<div class="recommendations__item">
+								7 окт 2019 г.
+							</div>
+							<div class="recommendations__item">
+								Антон Кирилович
+							</div>
+							<div class="recommendations__item">
+								Минск
+							</div>
+							<div class="recommendations__item">
+								Бизнес-тренер (менеджер по обучению)
+							</div>
+							<div class="recommendations__item">
+								Глава отдела
+							</div>
+							<div class="recommendations__item recommendations__item_price">
+								1 000
+							</div>
+							<div class="recommendations__item">
+								Студент
+							</div>
+							<div class="recommendations__item recommendations__item_last">
+								<div class="recommendations__status-items">
+									<div class="recommendations__status ">
+										 Модерация
+									</div>
+									<button class="recommendations__edit btn-empty">
+										Редактировать
+									</button>
+								</div>
+								<p class="recommendations__starred">
+									Добавлено в избранное <span>- 5 раз</span>
+								</p>
+								<p class="recommendations__looking">
+									Сейчас <span>5 человек просматривают</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <footer class="footer" id="footer">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-lg-4">
+	 				<a href="/" class="logo footer__logo">
+	 					<img src="img/dest/logo.svg" alt="" class="logo__img">
+	 				</a>
+	 				<a href="mailto:info@people.market" class="footer__email">
+	 					<img src="img/dest/mail.svg" alt="" class="footer__icon"> info@people.market
+	 				</a>
+	 			</div>
+	 			<div class="offset-lg-1"></div>
+	 			<div class="col-lg-3">
+	 				<ul class="footer__menu">
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Сравнить стратегии
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Selfsale
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кадровый резерв
+	 						</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+	 			<div class="col-lg-4">
+	 				<ul class="footer__menu">
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кто такие агенты
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Кто такие Асессоры
+	 						</a>
+	 					</li>
+	 					<li class="footer__item">
+	 						<a href="#" class="footer__link">
+	 							Какую проблему мы решаем
+	 						</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+	 			<div class="col-12">
+	 				<p class="footer__credits">
+	 					© 2019 People Market
+	 				</p>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </footer>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

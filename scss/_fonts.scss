@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("SegoeUI", "../fonts/SegoeUI/SegoeUI");
+@include font-face("SegoeUI", "../fonts/SegoeUI-Bold/SegoeUI-Bold", bold);
+@include font-face("SegoeUI", "../fonts/SegoeUI-Light/SegoeUI-Light", 300);
+@include font-face("SegoeUI", "../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold", 500);
+@include font-face("SegoeUI-Italic", "../fonts/SegoeUI-Italic/SegoeUI-Italic");
